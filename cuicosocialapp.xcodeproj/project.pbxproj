@@ -20,9 +20,16 @@
 		D8C323BD1CFCF41A00F06858 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C323BC1CFCF41A00F06858 /* Constants.swift */; };
 		D8C323BF1CFCFAED00F06858 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C323BE1CFCFAED00F06858 /* MaterialButton.swift */; };
 		D8C323C11CFCFD4100F06858 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C323C01CFCFD4100F06858 /* MaterialTextField.swift */; };
+		D8C323C61CFD11D300F06858 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C323C31CFD11D300F06858 /* Bolts.framework */; };
+		D8C323C71CFD11D300F06858 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C323C41CFD11D300F06858 /* FBSDKCoreKit.framework */; };
+		D8C323C81CFD11D300F06858 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C323C51CFD11D300F06858 /* FBSDKLoginKit.framework */; };
+		DCC3D8346A60A918BC0E6755 /* Pods_cuicosocialapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B765BD4344628A529C41D348 /* Pods_cuicosocialapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CC31878FCB70FD27B369F42 /* Pods-cuicosocialapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuicosocialapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-cuicosocialapp/Pods-cuicosocialapp.release.xcconfig"; sourceTree = "<group>"; };
+		A545AD46DB92691CF95641E7 /* Pods-cuicosocialapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuicosocialapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cuicosocialapp/Pods-cuicosocialapp.debug.xcconfig"; sourceTree = "<group>"; };
+		B765BD4344628A529C41D348 /* Pods_cuicosocialapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cuicosocialapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C323981CFCEF1F00F06858 /* cuicosocialapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuicosocialapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C3239B1CFCEF1F00F06858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8C3239D1CFCEF1F00F06858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		D8C323BC1CFCF41A00F06858 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D8C323BE1CFCFAED00F06858 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		D8C323C01CFCFD4100F06858 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		D8C323C31CFD11D300F06858 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D8C323C41CFD11D300F06858 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D8C323C51CFD11D300F06858 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,17 +55,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C323C61CFD11D300F06858 /* Bolts.framework in Frameworks */,
+				D8C323C71CFD11D300F06858 /* FBSDKCoreKit.framework in Frameworks */,
+				D8C323C81CFD11D300F06858 /* FBSDKLoginKit.framework in Frameworks */,
+				DCC3D8346A60A918BC0E6755 /* Pods_cuicosocialapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A158FC5A3348B75E9D26636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A545AD46DB92691CF95641E7 /* Pods-cuicosocialapp.debug.xcconfig */,
+				9CC31878FCB70FD27B369F42 /* Pods-cuicosocialapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E7CFEA94FE702827050167C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B765BD4344628A529C41D348 /* Pods_cuicosocialapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D8C3238F1CFCEF1F00F06858 = {
 			isa = PBXGroup;
 			children = (
 				D8C3239A1CFCEF1F00F06858 /* cuicosocialapp */,
 				D8C323991CFCEF1F00F06858 /* Products */,
+				4A158FC5A3348B75E9D26636 /* Pods */,
+				8E7CFEA94FE702827050167C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +103,7 @@
 		D8C3239A1CFCEF1F00F06858 /* cuicosocialapp */ = {
 			isa = PBXGroup;
 			children = (
+				D8C323C21CFD11BC00F06858 /* Frameworks */,
 				D8C323BB1CFCF40900F06858 /* Util */,
 				D8C323B01CFCEF5200F06858 /* Resources */,
 				D8C323AF1CFCEF4600F06858 /* View */,
@@ -128,6 +162,16 @@
 			name = Util;
 			sourceTree = "<group>";
 		};
+		D8C323C21CFD11BC00F06858 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C323C31CFD11D300F06858 /* Bolts.framework */,
+				D8C323C41CFD11D300F06858 /* FBSDKCoreKit.framework */,
+				D8C323C51CFD11D300F06858 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D8C323AA1CFCEF1F00F06858 /* Build configuration list for PBXNativeTarget "cuicosocialapp" */;
 			buildPhases = (
+				C8054151BF858A34A301E23D /* 📦 Check Pods Manifest.lock */,
 				D8C323941CFCEF1F00F06858 /* Sources */,
 				D8C323951CFCEF1F00F06858 /* Frameworks */,
 				D8C323961CFCEF1F00F06858 /* Resources */,
+				D8017BBA30142D30A32BB660 /* 📦 Embed Pods Frameworks */,
+				083985C9EB72CEE067C83B86 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +244,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083985C9EB72CEE067C83B86 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cuicosocialapp/Pods-cuicosocialapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8054151BF858A34A301E23D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8017BBA30142D30A32BB660 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cuicosocialapp/Pods-cuicosocialapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8C323941CFCEF1F00F06858 /* Sources */ = {
@@ -321,8 +416,13 @@
 		};
 		D8C323AB1CFCEF1F00F06858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A545AD46DB92691CF95641E7 /* Pods-cuicosocialapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cuicosocialapp",
+				);
 				INFOPLIST_FILE = cuicosocialapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cuico.cuicosocialapp;
@@ -332,8 +432,13 @@
 		};
 		D8C323AC1CFCEF1F00F06858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC31878FCB70FD27B369F42 /* Pods-cuicosocialapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cuicosocialapp",
+				);
 				INFOPLIST_FILE = cuicosocialapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cuico.cuicosocialapp;
@@ -360,6 +465,7 @@
 				D8C323AC1CFCEF1F00F06858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

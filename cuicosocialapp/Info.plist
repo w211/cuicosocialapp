@@ -50,5 +50,25 @@
 		<string>NotoSans-Italic.ttf</string>
 		<string>NotoSans-Regular.ttf</string>
 	</array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>fb239471486423240</string>
+            </array>
+        </dict>
+    </array>
+    <key>FacebookAppID</key>
+    <string>239471486423240</string>
+    <key>FacebookDisplayName</key>
+    <string>cuicosocialapp</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>fbapi</string>
+        <string>fb-messenger-api</string>
+        <string>fbauth2</string>
+        <string>fbshareextension</string>
+    </array>
 </dict>
 </plist>
